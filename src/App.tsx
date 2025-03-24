@@ -1,4 +1,5 @@
 import "./App.css";
+import UseState, { UseState2 } from "./assets/reactTs-basic/hooks/UseState";
 import Box from "./assets/reactTs-basic/Props";
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
         <p>children pass as a props</p>
         <button>click</button>
       </Box>
+
+      <UseState />
+      <UseState2 />
     </>
   );
 }
