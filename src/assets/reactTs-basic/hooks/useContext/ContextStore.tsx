@@ -49,3 +49,5 @@ export const ContextProvider = ({ children }: { children: ReactNode }) => {
 // Then use it as consumer in child component:
 
 // const { theme, toggleTheme } = useTheme();
+
+//^ 3 Separate concerns - Keep context creation, provider, and types / Interface in separate files for larger apps (we can use export with everyone (e.g typeAlias, Interface))
