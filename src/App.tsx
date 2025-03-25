@@ -1,5 +1,6 @@
 import "./App.css";
 import UseState, { UseState2 } from "./assets/reactTs-basic/hooks/UseState";
+import UseStateForm from "./assets/reactTs-basic/hooks/UseStateForm";
 import Box from "./assets/reactTs-basic/Props";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
 
       <UseState />
       <UseState2 />
+
+      <UseStateForm />
     </>
   );
 }
