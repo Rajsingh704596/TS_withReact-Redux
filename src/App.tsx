@@ -7,6 +7,7 @@ import UseReducerCount2, {
 import UseState, { UseState2 } from "./assets/reactTs-basic/hooks/UseState";
 import UseStateForm from "./assets/reactTs-basic/hooks/UseStateForm";
 import Box from "./assets/reactTs-basic/Props";
+import Count from "./assets/reduxToolkit-ts/Count";
 
 function App() {
   // const handleFun1 = (a: string) => {
@@ -36,6 +37,8 @@ function App() {
 
         <Consumer />
       </ContextProvider>
+
+      <Count />
     </>
   );
 }
